@@ -13,4 +13,14 @@ print(preco_final)
 mais_3 = input('Você quer mais 3 iogurtes? ')
 
 if (mais_3) == 'sim' or 'por favor':
-    print('Então dará 18.20 reais' % mais_3)
+    print('Então sairá mais caro') 
+
+
+
+novo_float = float(input('Digite o quanto de dinheiro você tem na carteira: '))
+
+print(novo_float)
+
+Soma_float = 130.35 + novo_float
+
+print(Soma_float)
