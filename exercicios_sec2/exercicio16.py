@@ -1,7 +1,9 @@
 salario = int(input('Quanto você recebe por mês? '))
 
-print('Hoje ele recebe R$%d por mês'% salario)
+print(salario)
 
 salario_com_aumento = (salario * 0.10) + salario
 
-print('Com o aumento ele virá a receber R$%d por mês'% salario_com_aumento)
+print(salario_com_aumento)
+
+print('Com esse aumento você receberá R$%d por mês.'% salario_com_aumento)
