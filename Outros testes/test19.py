@@ -9,6 +9,7 @@ elif (salario >= 1000 and salario <= 1299):
     salario_com_aumento = (salario * 0.05) + salario
     print('No salario medio, ele virá a receber R$%d por mês'% salario_com_aumento)
 elif (salario > 1300 and salario <= 1500):
-    print('No maior salario, ele virá a receber R$%d por mêS'% salario)
+    salario_com_aumento = (salario * 0.03) + salario
+    print('No maior salario, ele virá a receber R$%d por mês'% salario_com_aumento) 
 else:
-    print('Esse salario é maior do que o teto.')
+    print('Esse salario é maior do que o teto, logo ele não receberá aumento')
