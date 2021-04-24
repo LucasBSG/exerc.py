@@ -1,12 +1,5 @@
-valores = [1,2,3,4,5]
+lista = [21,41,52,51,56,12,61,75,92,14]
 
-print(valores)
+listinha = lista[2:7]
 
-x = 0
-
-while x < 5:
-    numero = int(input('Digite um número: '))
-    valores[x] = numero
-    x = x + 1
-
-print(valores)
+print(listinha)
