@@ -1,6 +1,6 @@
-l = ['Sofá','Televisão','Rádio','Ac','Poltrona']
+l = ['Sofá','Televisão','Rádio','Ac','Poltrona'] #lista
 
-i = 0
+i = 0 #elemento para rodar o código
 
 item_procurado = input('O que deseja buscar na casa? ')
 achou = False
