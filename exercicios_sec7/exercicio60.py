@@ -8,6 +8,10 @@ class Carro:
 
 civic = Carro(4, 1.0, True, 'Honda', 50000)
 
+idea = Carro(3, 1.0, True, 'Fiat', 200000)
+
+print(idea.teto_solar)
+
 print(civic.preco)
 
 if civic.teto_solar == True:
